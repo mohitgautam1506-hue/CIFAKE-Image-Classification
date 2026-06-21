@@ -181,7 +181,7 @@ def signup():
     
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("evotingotp4@gmail.com", "xowpojqyiygprhgr")
+    s.login(os.getenv("EMAIL_USER"), os.getenv("EMAIL_PASS"))
     s.send_message(msg)
     s.quit()
     return render_template("val.html")
