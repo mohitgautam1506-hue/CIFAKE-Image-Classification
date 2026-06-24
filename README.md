@@ -70,6 +70,26 @@ The system classifies images into:
 
 The project also provides Explainable AI visualization using Grad-CAM to highlight important regions influencing the prediction.
 
+## Application Screenshots
+
+### Home Page
+![Home Page](screenshots/01_home.jpg)
+
+### Login Page
+![Login Page](screenshots/02_login.jpg)
+
+### Dashboard
+![Dashboard](screenshots/03_dashboard.jpg)
+
+### Upload Image
+![Upload Image](screenshots/04_uploadimage.jpg)
+
+### Prediction Result
+![Prediction Result](screenshots/05_result.jpg)
+
+### Grad-CAM Visualization
+![Grad-CAM](screenshots/06_Gradcam.jpg)
+
 ## Author
 
 Mohit Gautam
